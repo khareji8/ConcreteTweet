@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcreteTweet · Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-container leaderboard-page">
+        <!-- Leaderboard Header -->
+        <header class="header leaderboard-header">
+            <h1 class="logo">
+                <span class="logo-primary">Concrete</span><span class="logo-secondary">Tweet</span> <span class="logo-tertiary">· Leaderboard</span>
+                <span class="logo-icon-small">𝕏</span>
+            </h1>
+            <p class="subtitle">Top users by Concrete impact on X. Scan yourself to join in.</p>
+        </header>
+
+        <!-- Controls: Tabs, Search & Back -->
+        <div class="leaderboard-controls" style="gap: 16px;">
+            <div class="tabs">
+                <button class="tab active">By Views</button>
+                <button class="tab">By Tweets</button>
+                <button class="tab">Earliest OGs</button>
+            </div>
+            
+            <div class="leaderboard-search-wrapper" style="flex: 1; display: flex; justify-content: flex-end; max-width: 250px; margin-left: auto;">
+                <input type="text" id="lbSearch" class="search-input" placeholder="Search by name..." style="width: 100%; border-radius: 8px; padding: 8px 12px; background: var(--bg-input); border: 1px solid var(--border-color); color: white; font-size: 0.9rem; outline: none;">
+            </div>
+
+            <a href="index.html" class="btn btn-back" style="white-space: nowrap;">&larr; Back</a>
+        </div>
+
+        <!-- Leaderboard List -->
+        <div class="leaderboard-list">
+            
+            <!-- Rank 1 -->
+            <div class="lb-card rank-1">
+                <div class="lb-left">
+                    <div class="lb-rank">#1</div>
+                    <img src="https://unavatar.io/twitter/concretexyz?fallback=https://ui-avatars.com/api/?name=Concrete+XYZ&background=random&size=128" class="lb-avatar" alt="User">
+                    <div class="lb-user-info">
+                        <div class="lb-name">Concrete XYZ <span class="verified"></span> <img src="concrete-logo.svg" class="mention-icon badge-inline" alt="Concrete" style="width:18px;height:18px;border-radius:4px;vertical-align:middle;"></div>
+                        <div class="lb-handle">@concretexyz</div>
+                        <div class="lb-subtext">431M views · 44 mentions</div>
+                    </div>
+                </div>
+                <div class="lb-right">
+                    <h3 class="lb-stat-val">431M</h3>
+                    <p class="lb-stat-label">VIEWS</p>
+                </div>
+            </div>
+
+            <!-- Rank 2 -->
+            <div class="lb-card rank-2">
+                <div class="lb-left">
+                    <div class="lb-rank">#2</div>
+                    <img src="https://unavatar.io/twitter/dill_sl?fallback=https://ui-avatars.com/api/?name=Dill&background=random&size=128" class="lb-avatar" alt="User">
+                    <div class="lb-user-info">
+                        <div class="lb-name">Dill <span class="verified"></span> <img src="concrete-logo.svg" class="mention-icon badge-inline" alt="Concrete" style="width:18px;height:18px;border-radius:4px;vertical-align:middle;"></div>
+                        <div class="lb-handle">@dill_sl</div>
+                        <div class="lb-subtext">61M views · 855 mentions</div>
+                    </div>
+                </div>
+                <div class="lb-right">
+                    <h3 class="lb-stat-val">61M</h3>
+                    <p class="lb-stat-label">VIEWS</p>
+                </div>
+            </div>
+
+            <!-- Rank 3 -->
+            <div class="lb-card rank-3">
+                <div class="lb-left">
+                    <div class="lb-rank">#3</div>
+                    <img src="https://unavatar.io/twitter/gustavorssilva?fallback=https://ui-avatars.com/api/?name=Gustavo&background=random&size=128" class="lb-avatar" alt="User">
+                    <div class="lb-user-info">
+                        <div class="lb-name">Gustavo Silva <span class="verified"></span> <img src="concrete-logo.svg" class="mention-icon badge-inline" alt="Concrete" style="width:18px;height:18px;border-radius:4px;vertical-align:middle;"></div>
+                        <div class="lb-handle">@gustavorssilva</div>
+                        <div class="lb-subtext">52M views · 564 mentions</div>
+                    </div>
+                </div>
+                <div class="lb-right">
+                    <h3 class="lb-stat-val">52M</h3>
+                    <p class="lb-stat-label">VIEWS</p>
+                </div>
+            </div>
+
+            <!-- Rank 4 -->
+            <div class="lb-card">
+                <div class="lb-left">
+                    <div class="lb-rank">#4</div>
+                    <img src="https://unavatar.io/twitter/lukehajduk04?fallback=https://ui-avatars.com/api/?name=Luke&background=random&size=128" class="lb-avatar" alt="User">
+                    <div class="lb-user-info">
+                        <div class="lb-name">Luke Hajduk <span class="verified"></span> <img src="concrete-logo.svg" class="mention-icon badge-inline" alt="Concrete" style="width:18px;height:18px;border-radius:4px;vertical-align:middle;"></div>
+                        <div class="lb-handle">@lukehajduk04</div>
+                        <div class="lb-subtext">18M views · 918 mentions</div>
+                    </div>
+                </div>
+                <div class="lb-right">
+                    <h3 class="lb-stat-val">18M</h3>
+                    <p class="lb-stat-label">VIEWS</p>
+                </div>
+            </div>
+
+            <!-- Rank 5 -->
+            <div class="lb-card">
+                <div class="lb-left">
+                    <div class="lb-rank">#5</div>
+                    <img src="https://unavatar.io/twitter/andonpv?fallback=https://ui-avatars.com/api/?name=Andon&background=random&size=128" class="lb-avatar" alt="User">
+                    <div class="lb-user-info">
+                        <div class="lb-name">Andon <span class="verified"></span> <img src="concrete-logo.svg" class="mention-icon badge-inline" alt="Concrete" style="width:18px;height:18px;border-radius:4px;vertical-align:middle;"></div>
+                        <div class="lb-handle">@andonpv</div>
+                        <div class="lb-subtext">17M views · 280 mentions</div>
+                    </div>
+                </div>
+                <div class="lb-right">
+                    <h3 class="lb-stat-val">17M</h3>
+                    <p class="lb-stat-label">VIEWS</p>
+                </div>
+            </div>
+
+            <!-- Rank 6 -->
+            <div class="lb-card">
+                <div class="lb-left">
+                    <div class="lb-rank">#6</div>
+                    <img src="https://unavatar.io/twitter/nic_builds?fallback=https://ui-avatars.com/api/?name=Nic&background=random&size=128" class="lb-avatar" alt="User">
+                    <div class="lb-user-info">
+                        <div class="lb-name">Nic <span class="verified"></span> <img src="concrete-logo.svg" class="mention-icon badge-inline" alt="Concrete" style="width:18px;height:18px;border-radius:4px;vertical-align:middle;"></div>
+                        <div class="lb-handle">@nic_builds</div>
+                        <div class="lb-subtext">15M views · 1,373 mentions</div>
+                    </div>
+                </div>
+                <div class="lb-right">
+                    <h3 class="lb-stat-val">15M</h3>
+                    <p class="lb-stat-label">VIEWS</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="site-credit" style="text-align: center; font-size: 1rem; color: var(--text-secondary); margin-top: 35px; opacity: 0.9; margin-bottom: 20px;">
+            This website is built by ConcreteXYZ Supporter <a href="https://x.com/pras_p69" target="_blank" style="color: var(--accent-yellow); text-decoration: none; font-weight: 600; transition: color 0.2s;">@pras_p69</a>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabs = document.querySelectorAll('.tab');
+            const list = document.querySelector('.leaderboard-list');
+            const cards = Array.from(document.querySelectorAll('.lb-card'));
+
+            const searchInput = document.getElementById('lbSearch');
+
+            // Extract data from the DOM
+            const data = cards.map(c => {
+                const handle = c.querySelector('.lb-handle').textContent;
+                const name = c.querySelector('.lb-name').textContent.toLowerCase();
+                const handleRaw = handle.toLowerCase();
+                const subtext = c.querySelector('.lb-subtext').textContent;
+                const viewsStr = subtext.split(' ')[0];
+                const mentionsStr = subtext.split('· ')[1].split(' ')[0].replace(/,/g, '');
+                
+                let ogScore = 0;
+                if(handle.includes('concretexyz')) ogScore = 1;
+                else if(handle.includes('dill_sl')) ogScore = 2;
+                else if(handle.includes('nic_builds')) ogScore = 3;
+                else if(handle.includes('gustavorssilva')) ogScore = 4;
+                else if(handle.includes('lukehajduk04')) ogScore = 5;
+                else ogScore = 6;
+
+                return {
+                    el: c,
+                    name: name,
+                    handleRaw: handleRaw,
+                    viewsRaw: parseFloat(viewsStr) * (viewsStr.includes('M') ? 1000000 : (viewsStr.includes('K') ? 1000 : 1)),
+                    viewsDisp: viewsStr,
+                    mentions: parseInt(mentionsStr),
+                    ogScore: ogScore
+                };
+            });
+
+            function render() {
+                const activeTab = document.querySelector('.tab.active').textContent.trim();
+                const query = searchInput.value.toLowerCase().trim();
+
+                // 1. Sort data
+                if (activeTab === 'By Views') {
+                    data.sort((a, b) => b.viewsRaw - a.viewsRaw);
+                } else if (activeTab === 'By Tweets') {
+                    data.sort((a, b) => b.mentions - a.mentions);
+                } else if (activeTab === 'Earliest OGs') {
+                    data.sort((a, b) => a.ogScore - b.ogScore);
+                }
+
+                // 2. Update stats and filter
+                data.forEach((d, i) => {
+                    // Update Rank & Stats based on global order
+                    d.el.querySelector('.lb-rank').textContent = '#' + (i + 1);
+                    d.el.className = 'lb-card' + (i < 3 ? ' rank-' + (i+1) : '');
+
+                    if (activeTab === 'By Views') {
+                        d.el.querySelector('.lb-stat-val').textContent = d.viewsDisp;
+                        d.el.querySelector('.lb-stat-label').textContent = 'VIEWS';
+                    } else if (activeTab === 'By Tweets') {
+                        d.el.querySelector('.lb-stat-val').textContent = d.mentions.toLocaleString();
+                        d.el.querySelector('.lb-stat-label').textContent = 'TWEETS';
+                    } else if (activeTab === 'Earliest OGs') {
+                        d.el.querySelector('.lb-stat-val').textContent = (2020 + d.ogScore);
+                        d.el.querySelector('.lb-stat-label').textContent = 'JOINED';
+                    }
+
+                    // Apply Search Filter
+                    const isMatch = d.name.includes(query) || d.handleRaw.includes(query);
+                    d.el.style.display = isMatch ? 'flex' : 'none';
+
+                    // Append to DOM to reflect new order
+                    list.appendChild(d.el);
+                });
+            }
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    render();
+                });
+            });
+
+            searchInput.addEventListener('input', render);
+        });
+    </script>
+</body>
+</html>

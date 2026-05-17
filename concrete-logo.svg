@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Yellow background -->
+  <rect width="64" height="64" fill="#F2E27A" rx="8"/>
+  <!-- Top bar -->
+  <rect x="14" y="10" width="36" height="4" rx="2" fill="#111111"/>
+  <!-- C letter -->
+  <text x="32" y="47" font-family="Georgia, serif" font-size="34" font-weight="700"
+        text-anchor="middle" fill="#111111">C</text>
+  <!-- Bottom bar -->
+  <rect x="14" y="52" width="36" height="4" rx="2" fill="#111111"/>
+</svg>

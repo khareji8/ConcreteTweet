@@ -389,7 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <span>🔁 ${fmt(tRts)}</span>
                                 <span>❤️ ${fmt(tLikes)}</span>
                                 <span>📊 ${fmt(tViews)}</span>
-                                <span style="margin-left: auto; font-size: 0.8rem; opacity: 0.4; font-weight: 400;">concretetweet.com</span>
+                                <span style="margin-left: auto; font-size: 0.8rem; opacity: 0.4; font-weight: 400;">concrete-tweet.vercel.app</span>
                             </div>
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
                                 <button style="background: transparent; border: 1px solid rgba(255,255,255,0.2); color: white; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; display: flex; align-items: center; gap: 6px; font-weight: 600;"><span class="icon-copy" style="font-size: 1rem;">⎘</span> Share</button>
